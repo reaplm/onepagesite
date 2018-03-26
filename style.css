@@ -12,8 +12,10 @@ body{
 	background-color: #e5e5e5;
 	font-size: .8125rem;
 	font-family: Century Gothic;
+	color: #333;
 }
-/*===============ONE PAGE SITE===================================*/
+/*--------------------------------------------------MAIN MENU--------------------------------------------*/
+
 #main-menu {
 	background-color: #e5e5e5;
 	/*background: rgba(18, 13, 17, 0.7);*/
@@ -40,49 +42,38 @@ body{
 .navbar-toggler-icon{
 	color: #666;
 }
+/*--------------------------------------------------HOME PAGE--------------------------------------------*/
+#home{
+	background-image: url("../onepagesite/assets/images/IMAG0408_ed_2.jpg");
+	background-position: center left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+	min-height: 600px;
+}
+.centered-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#home a:hover, #home a:focus{
+	color: #fff;
+	text-decoration: none;
+}
+#home .btn-primary:focus{
+	-webkit-box-shadow: 0 0 0 2px rgba(217, 77, 77, 0.5);
+	box-shadow: 0px 0px 0px 2px rgba(217, 77, 77, 0.5);
+}
+/*--------------------------------------------------ABOUT PAGE--------------------------------------------*/
 .round-corners{
 	border-radius: 50%;
 }
-.nopadding{
-	padding: 0;
-}
-.padding{
-	padding: 15;
-}
-.name-title{
-	color: #d94d4d;
-	display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.name-title h1 {
-	align-self: flex-end;
-}
-.social-links img{
-	width: 30px;
+.nostyle a{
+    text-decoration: none;
 }
 
-/*--------------------------------------------------SKILLS PAGE--------------------------------------------*/
-.bold-heading{
-	font-size: 10pt;
-	font-weight: bold;
-	color: #636a6b;
-}
-
-	
-.skill-icon{
-	border-radius: 60px;
-	display: inline-block;
-  border-radius: 60px;
-  box-shadow: 0px 0px 5px #f8d650;
-  padding: 0.5em 0.6em;
-}
-.text-underline{
-	text-decoration: underline;
-}
-.border-left{
-	border-left: solid 2px;
-}
+/*---------------------------------------------------EXPERIENCE PAGE--------------------------------------------*/
 .v-bar{
 	height: 90%;
 	width: 1px;
@@ -114,7 +105,36 @@ body{
 	margin: 0px;
 	line-height: 0.75em;
 }
-/*====================================FOOTER===============*/
+.sm-bullet{
+	color: #f8d650;
+}
+/*-------------------------------------------------SKILLS PAGE--------------------------------------------------*/
+.bold-heading{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #636a6b;
+}
+
+	
+.skill-icon{
+	border-radius: 60px;
+	display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 5px #f8d650;
+  padding: 0.5em 0.6em;
+}
+.text-underline{
+	text-decoration: underline;
+}
+.border-left{
+	border-left: solid 2px;
+}
+/*-------------------------------------------------CONTACT PAGE--------------------------------------------------*/
+#contact{
+	background-color: #f8d650;
+	color: #666;
+}
+/*-------------------------------------------------FOOTER--------------------------------------------------*/
 .footer{
 	width: 100%;
 	background-color: #f8d650;
@@ -154,26 +174,28 @@ body{
 	border-bottom: solid #fa6247;
 	border-radius: 0px;
 }
-.centered-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+.contact-me{
+	font-size: 26px; /*20pt;*/
 }
 .footer .contact-me img{
 	width: 25px;
 	height: 25px;
 }
+/*--------------------------------------------------CONTACT WIDGET--------------------------------------------*/
+
 #contact-form .btn-primary,
-#btn-downloadCV{
+#btn-downloadcv{
 	background-color: #d94d4d;
 	font-family: Century Gothic;
 	border: none;
 	margin-top: 10px;
 }
-
-
 #contact-form .error{
 	color: #d94d4d;
+}
+#contact-form .has-danger{
+	height: 55px;
 }
 #contact-form label{
 		margin-bottom: 0px;
@@ -200,6 +222,7 @@ color: #d94d4d;
 #contact-form input, #contact-form textarea{
 	font-family: Century Gothic;
 	font-size: 11pt;
+	color: #d94d4d;
 }
 .collapse{
 	display: none;
@@ -216,3 +239,28 @@ color: #d94d4d;
 .progress .bar-3{
 	background-color: #fff;
 }
+
+/*--------------------------------------------------CLASSES--------------------------------------------*/
+
+.content{
+	padding-top: 25px;
+}
+.nopadding{
+	padding: 0;
+}
+.padding{
+	padding: 15;
+}
+.light-text{
+	color: #636a6b
+}
+.italic{
+	font-style: italic;
+}
+h1{
+	text-align: center;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+	

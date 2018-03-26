@@ -1,24 +1,6 @@
-<?php
-/**
- * For processing contact form
- */
-
-// if instance is defined, populate the fields
-	if (isset($_POST['email'])) {
-		$name= $_POST['name'];
-		$to = $_POST['email'];
-		$subject = $_POST['subject'];
-		$message = $_POST['message'];
-		$admin_email = 'pdm.molefe@gmail.com';
-		$headers[] = 'From: Pdm Molefe <pdm.molefe@gmail>';
-		
-		$sent = wp_mail( $to, $subject, $message, $headers );
-		if($sent){
-			return 'Message sent successfully!';
-		}
-		else{
-			return 'Sorry something went wrong. Please try again';
-		}
-	}
- 
- ?>
+<div class="content text-center pb-5">
+	<h1 class="mb-5 pt-5">Contact Me</h1>
+	<h2 class="mb-0">
+		Let's chat. I'm ready for a change.
+	</h2>
+</div>
