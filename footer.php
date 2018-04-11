@@ -3,8 +3,7 @@
 	</div>
 	<div class="footer">
 			<div class="row">	
-				<div class="col-lg-2"></div>
-				<div class="col-lg-4 col-sm-6" >
+				<div class="col-md-6 col-sm-12">
 					<form id="contact-form" action="/onepagesite/mailer.php" method="post" class="form-horizontal">
 						<div class="has-danger">
 							<div class="">
@@ -48,17 +47,14 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-lg-4 col-sm-6 centered-container">
+				<div class="col-md-6 col-sm-12 centered-items">
 					<div class="contact-me">
 						<img src="/onepagesite/assets/images/mail.png"/> pdm.molefe@gmail.com<br />
-						<img src="/onepagesite/assets/images/smartphone.png" class="d-inline"/> +267 71406569<br />
+						<img src="/onepagesite/assets/images/smartphone.png"/> +267 71406569<br />
 						<img src="/onepagesite/assets/images/placeholder.png"/> Gaborone, Botswana<br />
 						<img src="/onepagesite/assets/images/skype.png"/> pearl.molefe<br />
 						
 					</div>
-				</div>
-				<div class="col-lg-2">
-					
 				</div>
 			
 			<br>

@@ -2,7 +2,7 @@
 <div id="home" class="content">
 			<?php include "home.php"; ?>
 </div>
-	<div class="container nopadding">
+	<div class="container">
 		
 		<div id="about" class="row">
 			<?php include "about.php"; ?>

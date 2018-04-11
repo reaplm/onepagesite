@@ -51,8 +51,9 @@ body{
 	width: 100%;
 	overflow: hidden;
 	min-height: 600px;
+	border: solid;
 }
-.centered-container{
+.centered-items{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -61,10 +62,13 @@ body{
 	color: #fff;
 	text-decoration: none;
 }
+
 #home .btn-primary:focus{
 	-webkit-box-shadow: 0 0 0 2px rgba(217, 77, 77, 0.5);
 	box-shadow: 0px 0px 0px 2px rgba(217, 77, 77, 0.5);
+	
 }
+
 /*--------------------------------------------------ABOUT PAGE--------------------------------------------*/
 .round-corners{
 	border-radius: 50%;
@@ -176,7 +180,8 @@ body{
 }
 
 .contact-me{
-	font-size: 26px; /*20pt;*/
+	
+	font-size: 25px; /*20pt;*/
 }
 .footer .contact-me img{
 	width: 25px;
@@ -241,15 +246,32 @@ color: #d94d4d;
 }
 
 /*--------------------------------------------------CLASSES--------------------------------------------*/
+/* adapting to mobile phones*/
+@media screen and (max-width: 768px){
+	#home{
+		background-image: url("../onepagesite/assets/images/IMAG0408_ed_sm.jpg");
+		background-position: center left;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		overflow: hidden;
+		min-height: 360px;
+		
+	}	
 
+}
+@media screen and (max-width: 544px){
+	#btn-downloadcv{
+	font-size: 3.5vw;
+	}
+	.contact-me{
+		font-size: 5.6vw;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
 .content{
 	padding-top: 25px;
-}
-.nopadding{
-	padding: 0;
-}
-.padding{
-	padding: 15;
 }
 .light-text{
 	color: #636a6b
