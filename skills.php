@@ -122,48 +122,61 @@
 		<div class="row">
 			<div class="col-sm-7">
 				On Saturday I am most likely... <br /><br />
-				<img class="mr-4 d-inline mb-3"
-					title="playing with kitty"
+				<span class="d-inline-block" data-toggle="popover" 
+				data-content="playing with kitty"
+				data-placement="right" data-trigger="hover">
+				<img class="mr-4 d-inline mb-3 skills-icon"
 					src="/onepagesite/assets/images/black-cat.png"
-					alt="" width="50" height="50" /><img class="d-inline mr-4 mb-3"
-					title="walking the dog"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+					data-content="walking the dog" data-placement="right" data-trigger="hover"
+					><img class="d-inline mr-4 mb-3 skills-icon"
 					src="/onepagesite/assets/images/dog.png"
-					alt="" width="50" height="50" /> <img
-					class="d-inline mr-4 alignnone mb-3" title="watching tennis"
+					alt="" width="50" height="50" /></span> <span class="d-inline-block" data-toggle="popover" 
+					data-content="watching tennis" data-placement="left" data-trigger="hover">
+					<img class="d-inline mr-4 alignnone mb-3" title="watching tennis"
 					src="/onepagesite/assets/images/tennis.png"
-					alt="" width="50" height="50" /> <img
-					class="d-inline mr-4 alignnone mb-3" title="taking cool pictures"
+					alt="" width="50" height="50" /></span> <span class="d-inline-block" data-toggle="popover" 
+					data-content="taking cool pictures" data-placement="bottom" data-trigger="hover"><img
+					class="d-inline mr-4 alignnone mb-3" 
 					src="/onepagesite/assets/images/photo-camera.png"
-					alt="" width="50" height="50" /><img class="mr-4 d-inline mb-3"
-					title="spending time with family"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+				data-content="spending time with family" data-placement="right" data-trigger="hover"><img class="mr-4 d-inline mb-3"
 					src="/onepagesite/assets/images/family-room.png"
-					alt="" width="50" height="50" /><img
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+				data-content="re-arranging my apartment" data-placement="bottom" data-trigger="hover"><img
 					class="mr-4 d-inline alignnone mb-3"
-					title="re-arranging my appartment"
 					src="/onepagesite/assets/images/wrench-tool-in-a-hand.png"
-					alt="" width="50" height="50" /><img
-					class="d-inline mr-4 mb-3 alignnone" title="contemplating gym"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+				data-content="contenplating gym" data-placement="bottom" data-trigger="hover"><img
+					class="d-inline mr-4 mb-3 alignnone" 
 					src="/onepagesite/assets/images/woman.png"
-					alt="" width="50" height="50" /><img
-					class="d-inline alignnone mb-3" title="bargain hunting"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+				data-content="bargain hunting" data-placement="bottom" data-trigger="hover"><img
+					class="d-inline alignnone mb-3" 
 					src="/onepagesite/assets/images/woman-with-shopping.png"
-					alt="" width="50" height="50" />
+					alt="" width="50" height="50" /></span>
 
 			</div>
 			<div class="col-sm-1"></div>
 			<div class="col-sm-4">
 
-				I would really like to... <br /><br /><img class="mr-4"
-					title="learn a new language"
+				I would really like to... <br /><br /><span class="d-inline-block" data-toggle="popover" 
+				data-content="learn a new language" 
+				data-placement="bottom" data-trigger="hover"><img class="mr-4"
 					src="/onepagesite/assets/images/translator.png"
-					alt="" width="50" height="50" /><img
-					class="mr-4" title="learn new technology"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+					data-placement="bottom" data-trigger="hover"
+				data-content="learn new technology" ><img
+					class="mr-4 mb-3" title="learn new technology"
 					src="/onepagesite/assets/images/investment.png"
-					alt="" width="50" height="50" /><img
-					class="d-inline"
+					alt="" width="50" height="50" /></span><span class="d-inline-block" data-toggle="popover" 
+					data-trigger="hover"
+				data-content="relocate somewhere near the beach" 
+				data-placement="bottom" data-trigger="hover"><img
+					class="d-inline mb-3"
 					title="relocate somewhere near the beach"
 					src="/onepagesite/assets/images/sun-umbrella.png"
-					alt="" width="50" height="50" />
+					alt="" width="50" height="50" /></span>
 
 			</div>
 		</div>

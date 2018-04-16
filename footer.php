@@ -47,7 +47,8 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-md-6 col-sm-12 centered-items">
+				
+				<div class="col-md-6 col-sm-12 pt-4 centered-items">
 					<div class="contact-me">
 						<img src="/onepagesite/assets/images/mail.png"/> pdm.molefe@gmail.com<br />
 						<img src="/onepagesite/assets/images/smartphone.png"/> +267 71406569<br />

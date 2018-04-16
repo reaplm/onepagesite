@@ -26,6 +26,8 @@ window.onload = function() {
 }
 $(document).ready(
 	function(){
+		// popovers Initialization
+		$('[data-toggle="popover"]').popover();
 		
 		//Contact form submit
 		var validator = $("#contact-form").validate({
@@ -78,20 +80,16 @@ $(document).ready(
 			var divElement = $(this).attr("href");
 			var url = divElement.substring(1); 
 			scrollTo(divElement);
-			/*if(divElement == "#contact"){
-				$("#main-menu").css("background-color","#f8d650");
-				$(".navbar").css("background-color","#f8d650");
-			}else{
-				$("#main-menu").css("background-color","inherit");
-				$(".navbar").css("background-color","inherit");
-			}*/
+		});
 		
-			//window.history.pushState("object or string", $(this).text(), "/"+url);
-		});
-		//Hide menu when link is clicked
-		$(document).on("click", ".nav-link", function(){
+		$(document).click(function(){
+			//Hide menu when link is clicked
 			$("#navbar-menu-toggle").collapse('hide');
+			//Hide popup on click
+			$(".popover").popover('hide');
 		});
+
+	
 		
 	}
 );

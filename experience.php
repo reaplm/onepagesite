@@ -1,24 +1,24 @@
-<div class="content">
+<div class="content pl-4 pr-4">
 	<h1 class="mt-5 pb-5">Work Experience</h1>
 	<div class="container">
 		<div class="row mt-3 ">
-			<div class="col-sm-6"></div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-6 col-md-6"></div>
+			<div class="col-12 col-sm-1 col-md-1 text-center">
 				<p class="lg-bullet">&#8226;</p>
 				<div class="v-bar-s"></div>
 			</div>
-			<div class="col-sm-5"></div>
+			<div class="col-12 col-sm-5 col-md-5"></div>
 		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6 card">
+			<div class="col-12 col-sm-6 col-md-6 card">
 				<h3>ANALYST PROGRAMMER</h3>
 				<h6>BOTSWANA EXAMINATIONS COUNCIL | FEB-2015 - CURRENT</h6>
 				<span class="light-text"> Development of web
-					applications, and web services in C# and VB using and visual studio<span
+					applications and web services in C# and VB using visual studio<span
 					class="sm-bullet"> &#8226; </span> Designing data modeling for .NET
-					applications of new projects Programming of Data Access Layer using
-					ADO.NET which involved accessing data from Oracle Database using
-					Connected Architecture and OOP concepts <span
+					applications <span class="sm-bullet"> &#8226; </span>
+					Programming of Data Access Layer using ADO.NET which involved accessing 
+					data from Oracle Database using Connected Architecture and OOP concepts <span
 					class="sm-bullet"> &#8226; </span>Involved in implementing client
 					and server side functionalities using JavaScript, ASP, HTML, IIS and
 					CSS for developing Web Pages<span class="sm-bullet"> &#8226;
@@ -27,7 +27,7 @@
 					manuals and technical documents<span class="sm-bullet">
 						&#8226; </span> Performing business requirements analysis, requirements
 					gathering and data modeling<span class="sm-bullet"> &#8226; </span>
-					Creating triggers, functions, stored procedure and views for Oracle
+					Creating triggers, functions, stored procedures and views for Oracle
 					11g and 12c databases<span class="sm-bullet"> &#8226; </span>
 					Conducting release testing, bug verification and integration of
 					software modules<span class="sm-bullet"> &#8226; </span>Designing
@@ -37,19 +37,24 @@
 						Oracle, SQL Plus | SAP Crystal Reports| IIS | Team Foundation
 						Server 2013</span></span><br />
 			</div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-1 col-md-1 text-center hidden-xs-down">
 				<p class="md-bullet">&#8226;</p>
 				<div class="v-bar"></div>
 			</div>
-			<div class="col-sm-5"></div>
+			<div class="col-12 col-sm-5 col-md-5 hidden-xs-down"></div>
+		</div>
+		<div class="row mt-3 hidden-sm-up">
+			<div class="col-12 text-center">
+				<div class="v-bar-s"></div>
+			</div>
 		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6"></div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-6 col-md-6 hidden-xs-down"></div>
+			<div class="col-12 col-sm-1 col-md-1 text-center hidden-xs-down">
 				<p class="md-bullet">&#8226;</p>
 				<div class="v-bar"></div>
 			</div>
-			<div class="col-sm-5 card">
+			<div class="col-12 col-sm-5 col-md-5 card">
 				<h3>SOFTWARE ENGINEER</h3>
 				<h6>SIL BOTSWANA | FEB-2015 - CURRENT</h6>
 				<span class="light-text">Writing and maintaining software
@@ -59,13 +64,13 @@
 					specifications<span style="color: #f8d650;"> &#8226; </span>Responsible
 					for requirements analysis, design, development and implementation of
 					system enhancements<span style="color: #f8d650;"> &#8226; </span>Resolving
-					issues and proving production support and assistance for user
+					issues and providing production support and assistance for user
 					queries<span style="color: #f8d650;"> &#8226; </span>Modification of
 					forms, using Oracle Developer Suite 10g, as per client requirements
 					and supporting system and user acceptance testing activities
 					including training, issue resolution and systems interfacing<span
 					style="color: #f8d650;"> &#8226; </span>Conducting reviews, validating
-					designs, software specification and project deliverables<span
+					designs, software specifications and project deliverables<span
 					style="color: #f8d650;"> &#8226; </span>Tuning PL/SQL code and application<span
 					style="color: #f8d650;"> &#8226; </span>Providing Oracle 10g database
 					administration support to end users<span style="color: #f8d650;">
@@ -81,15 +86,20 @@
 
 			</div>
 		</div>
+		<div class="row mt-3 hidden-sm-up">
+			<div class="col-12 text-center">
+				<div class="v-bar-s"></div>
+			</div>
+		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6 card">
+			<div class="col-12 col-sm-6 col-md-6 card">
 				<h3>SOFTWARE ENGINEER INTERN</h3>
 				<h6>DCDM CONSULTING | MAY-2013 - FEB-2014</h6>
 				<span class="light-text">Development of stored
-					procedures, Triggers and Packages using Toad<span
+					procedures, Triggers and functions<span
 					style="color: #f8d650;"> &#8226; </span>Production of online dynamic
 					reports using Oracle BI Publisher<span style="color: #f8d650;">&#8226;</span>Front
-					end development using Oracle Forms Developer 6i/10g<span
+					end development using Oracle Forms Developer 6i<span
 					style="color: #f8d650;">&#8226;</span> Oracle 10g/11g database
 					administration<span style="color: #f8d650;">&#8226;</span> Java software
 					development using Java SE 7, Spring MVC and Hibernate<span
@@ -100,21 +110,26 @@
 							PostgreSQL | Forms Builder 6i, Toad, SQL Plus, Eclipse | Oracle BI
 							Publisher | Tomcat7 | Ubuntu </span></span><br />
 			</div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-1 col-md-1 text-center hidden-xs-down">
 				<p class="md-bullet">&#8226;</p>
 
 				<div class="v-bar"></div>
 			</div>
-			<div class="col-sm-5"></div>
+			<div class="col-12 col-sm-5 col-md-5 hidden-xs-down"></div>
+		</div>
+		<div class="row mt-3 hidden-sm-up">
+			<div class="col-12 text-center">
+				<div class="v-bar-s"></div>
+			</div>
 		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6"></div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-6 col-md-6 hidden-xs-down"></div>
+			<div class="col-12 col-sm-1 col-md-1 text-center hidden-xs-down">
 				<p class="md-bullet">&#8226;</p>
 
 				<div class="v-bar"></div>
 			</div>
-			<div class="col-sm-5 card">
+			<div class="col-12 col-sm-5 col-md-5 card">
 				<h3>PROJECT MANAGER INTERN</h3>
 				<h6>ORANGE BOTSWANA | MAY-2012 - APR-2013</h6>
 				<span class="light-text">End to End delivery of projects
@@ -131,24 +146,30 @@
 
 			</div>
 		</div>
+		<div class="row mt-3 hidden-sm-up">
+			<div class="col-12 text-center">
+				<div class="v-bar-s"></div>
+			</div>
+		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6 card">
+			<div class="col-12 col-sm-6 col-md-6 card">
 				<h3>COMPUTER SYSTEMS ENGINEERING</h3>
 				<h6>MONASH UNIVERSITY | 2009</h6><br />
 			</div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-1 col-md-1 text-center hidden-xs-down">
 				<p class="md-bullet">&#8226;</p>
 
 				<div class="v-bar"></div>
 			</div>
-			<div class="col-sm-5"></div>
+			<div class="col-12 col-sm-5 col-md-5 hidden-xs-down"></div>
 		</div>
 		<div class="row mt-3">
-			<div class="col-sm-6"></div>
-			<div class="col-sm-1 text-center">
+			<div class="col-12 col-sm-6"></div>
+			<div class="col-12 col-sm-1 text-center">
+				<div class="v-bar-s"></div>
 				<p class="lg-bullet">&#8226;</p>
 			</div>
-			<div class="col-sm-5"></div>
+			<div class="col-12 col-sm-5"></div>
 		</div>
 	</div>
 </div>
